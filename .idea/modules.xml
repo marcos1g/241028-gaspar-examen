@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Charkowy/Charkowy.iml" filepath="$PROJECT_DIR$/Charkowy/Charkowy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Charkowy/Charkowy-tp03/Charkowy-tp03.iml" filepath="$PROJECT_DIR$/Charkowy/Charkowy-tp03/Charkowy-tp03.iml" />
       <module fileurl="file://$PROJECT_DIR$/Kappou/Kappou.iml" filepath="$PROJECT_DIR$/Kappou/Kappou.iml" />
       <module fileurl="file://$PROJECT_DIR$/Kappou/tp03/tp03.iml" filepath="$PROJECT_DIR$/Kappou/tp03/tp03.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/trabajos-practicos.iml" filepath="$PROJECT_DIR$/.idea/trabajos-practicos.iml" />
