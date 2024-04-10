@@ -1,10 +1,3 @@
-/*
-Crear los respectivos getters y setters de los atributos
-Tener en cuenta la visibilidad de cada método y atributo como debe ser
-Crear un método actualizar que este sobrecargado, puede recibir solo nombre, nombre y edad o solo edad
-Dependiendo que reciba llamara a los setters correspondientes
-En la clase Main instanciar un objeto de la clase Persona y ejecutar los correspondientes métodos
-*/
 public class Persona {
 
     private String nombre;
