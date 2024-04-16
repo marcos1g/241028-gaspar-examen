@@ -1,0 +1,26 @@
+Crear un programa que imprima "hola mundo" dentro del método main
+OTRO
+Crear un programa que tenga una clase que se llame Persona
+Crear 2 atributos: Nombre y edad
+Crear un método constructor que reciba ambos parámetros
+Crear los respectivos getters y setters de los atributos
+Tener en cuenta la visibilidad de cada método y atributo como debe ser
+Crear un método actualizar que este sobrecargado, puede recibir solo nombre, nombre y edad o solo edad
+Dependiendo que reciba llamara a los setters correspondientes
+En la clase Main instanciar un objeto de la clase Persona y ejecutar los correspondientes métodos
+
+
+
+//APUNTES EPICOS///
+
+¿como convierto la primera letra en mayuscula a la hora de generar una persona?
+    this.nombre = nombre.substring(0, 1).toUpperCase() + nombre.substring(1);
+     t
+     dice que tomo una porcio de la cadena de texto de o igual 0(inclusivo) a 1(exclusivo) y lo transformo a mayuscula con
+     touppercase de ahi al resto lo concateno con el resto del nombre que no fue transformado (IQ +100)
+
+¿Por que no me dejaba ingresar un nombre con espacios?
+    por que estaba usando String nombre = scanner.next(); , este solo me toma la primera linea
+    tendria que usar String nombre = scanner.nextLine();
+    el next lo usaria si fuera solo nombre y otro apellido
+
