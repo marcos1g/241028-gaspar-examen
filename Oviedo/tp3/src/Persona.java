@@ -36,6 +36,7 @@ public class Persona {
         setEdad(nuevaEdad);
     }
 
+    //esto seria un procedimiento
     public void mostrarInformacion() {
         System.out.println(" ");
         System.out.println("------------------------------");

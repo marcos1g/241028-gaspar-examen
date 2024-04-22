@@ -40,7 +40,7 @@ public class Main {
                                     System.out.println(" ");
                                     System.out.println("Opción 1 seleccionada: Registrar una persona");
                                     //Do while para que mientras la opcion2 sea 1 se mantenga dentro del bucle de agregar personas
-                                    do {
+                                    while(opcion2 == 1) {
                                         //Ingresamos el nombre y la edad de la persona
                                         System.out.println("Ingrese el nombre de una persona:");
                                         String nombre = scanner.next();
@@ -66,7 +66,7 @@ public class Main {
                                         if (opcion3 == 2) {
                                             opcion2 = 0;
                                         }
-                                    } while (opcion2 == 1);
+                                    }
                                     break;
                                     
                                     
