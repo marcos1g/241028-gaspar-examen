@@ -5,12 +5,18 @@ public static void main(String[] args) {
     search.setArrayLength(1024);
     search.fillArray();
     search.sortArray();
-    search.reqNum(535);
-    if (search.binarySearch()!=-1) {
-        System.out.println(search.binarySearch());
-    }else{
-        System.out.println("Not found");
+    //search.reqNum(525); //número elegido arbitrariamente por el usuario
+    search.reqNum(search.showList()[266]); //número elegido por el usuario desde un índice de la lista
+    for(int n : search.showList()){
+        System.out.println(n);
     }
+    if (search.binarySearch()!=-1) {
+        System.out.println(STR."El número \{search.reqNum} fue encontrado.");
+    }else{
+        System.out.println(STR."El número \{search.reqNum} no fue encontrado en la lista.");
+    }
+
+
 
     System.out.println(search.showResults());
 }
