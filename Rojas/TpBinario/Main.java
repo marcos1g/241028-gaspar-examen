@@ -8,18 +8,16 @@ import java.util.Random;
 
 public class Main {
     public static void main(String[] args) {
-        Random r = new Random();
-        Integer[] n = new Integer[1000];
+        BusquedaBinaria busqueda = new BusquedaBinaria();
 
-        for (int i = 0; i < n.length; i++) {
-            n[i]=r.nextInt(7001);
-        }
+        busqueda.setMaxAleatorio(7000);
+        busqueda.setTamanoArray(1024);
 
-        Arrays.sort(n);
+        busqueda.llenarArray();
+        busqueda.ordenarArray();
+        busqueda.generarNumeroBusqueda();
+        busqueda.ejecutarBusqueda();
 
-        for (int i = 0; i < n.length; i++) {
-            System.out.println(n[i]);
-        }
-        //bu
+        System.out.println(busqueda.mostrarResultados());
     }
 }
