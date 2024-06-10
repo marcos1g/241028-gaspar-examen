@@ -1,0 +1,22 @@
+1) Crear un array de 1000 posiciones
+2) Cargar el array con números aleatorios entre 1 y 7000
+3) Ordenar el array
+4) Realizar una búsqueda binaria
+5) Imprimir la posición en la que se encuentra y la cantidad de iteraciones que hizo
+
+El main debe quedar así
+
+public static void main(String[] args) {
+
+BusquedaBinaria busqueda = new BusquedaBinaria();
+
+busqueda.setMaxAleatorio(7000);
+busqueda.setTamanoArray(1024);
+
+busqueda.llenarArray();
+busqueda.ordenarArray();
+busqueda.generarNumeroBusqueda();
+busqueda.ejecutarBusqueda();
+busqueda.mostrarResultados();
+
+}
