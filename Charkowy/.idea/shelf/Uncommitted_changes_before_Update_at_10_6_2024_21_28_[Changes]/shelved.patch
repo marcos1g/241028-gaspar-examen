@@ -1,0 +1,1580 @@
+Index: ../.idea/uiDesigner.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../.idea/uiDesigner.xml b/../.idea/uiDesigner.xml
+deleted file mode 100644
+--- a/../.idea/uiDesigner.xml	
++++ /dev/null	
+@@ -1,124 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="Palette2">
+-    <group name="Swing">
+-      <item class="com.intellij.uiDesigner.HSpacer" tooltip-text="Horizontal Spacer" icon="/com/intellij/uiDesigner/icons/hspacer.svg" removable="false" auto-create-binding="false" can-attach-label="false">
+-        <default-constraints vsize-policy="1" hsize-policy="6" anchor="0" fill="1" />
+-      </item>
+-      <item class="com.intellij.uiDesigner.VSpacer" tooltip-text="Vertical Spacer" icon="/com/intellij/uiDesigner/icons/vspacer.svg" removable="false" auto-create-binding="false" can-attach-label="false">
+-        <default-constraints vsize-policy="6" hsize-policy="1" anchor="0" fill="2" />
+-      </item>
+-      <item class="javax.swing.JPanel" icon="/com/intellij/uiDesigner/icons/panel.svg" removable="false" auto-create-binding="false" can-attach-label="false">
+-        <default-constraints vsize-policy="3" hsize-policy="3" anchor="0" fill="3" />
+-      </item>
+-      <item class="javax.swing.JScrollPane" icon="/com/intellij/uiDesigner/icons/scrollPane.svg" removable="false" auto-create-binding="false" can-attach-label="true">
+-        <default-constraints vsize-policy="7" hsize-policy="7" anchor="0" fill="3" />
+-      </item>
+-      <item class="javax.swing.JButton" icon="/com/intellij/uiDesigner/icons/button.svg" removable="false" auto-create-binding="true" can-attach-label="false">
+-        <default-constraints vsize-policy="0" hsize-policy="3" anchor="0" fill="1" />
+-        <initial-values>
+-          <property name="text" value="Button" />
+-        </initial-values>
+-      </item>
+-      <item class="javax.swing.JRadioButton" icon="/com/intellij/uiDesigner/icons/radioButton.svg" removable="false" auto-create-binding="true" can-attach-label="false">
+-        <default-constraints vsize-policy="0" hsize-policy="3" anchor="8" fill="0" />
+-        <initial-values>
+-          <property name="text" value="RadioButton" />
+-        </initial-values>
+-      </item>
+-      <item class="javax.swing.JCheckBox" icon="/com/intellij/uiDesigner/icons/checkBox.svg" removable="false" auto-create-binding="true" can-attach-label="false">
+-        <default-constraints vsize-policy="0" hsize-policy="3" anchor="8" fill="0" />
+-        <initial-values>
+-          <property name="text" value="CheckBox" />
+-        </initial-values>
+-      </item>
+-      <item class="javax.swing.JLabel" icon="/com/intellij/uiDesigner/icons/label.svg" removable="false" auto-create-binding="false" can-attach-label="false">
+-        <default-constraints vsize-policy="0" hsize-policy="0" anchor="8" fill="0" />
+-        <initial-values>
+-          <property name="text" value="Label" />
+-        </initial-values>
+-      </item>
+-      <item class="javax.swing.JTextField" icon="/com/intellij/uiDesigner/icons/textField.svg" removable="false" auto-create-binding="true" can-attach-label="true">
+-        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1">
+-          <preferred-size width="150" height="-1" />
+-        </default-constraints>
+-      </item>
+-      <item class="javax.swing.JPasswordField" icon="/com/intellij/uiDesigner/icons/passwordField.svg" removable="false" auto-create-binding="true" can-attach-label="true">
+-        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1">
+-          <preferred-size width="150" height="-1" />
+-        </default-constraints>
+-      </item>
+-      <item class="javax.swing.JFormattedTextField" icon="/com/intellij/uiDesigner/icons/formattedTextField.svg" removable="false" auto-create-binding="true" can-attach-label="true">
+-        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1">
+-          <preferred-size width="150" height="-1" />
+-        </default-constraints>
+-      </item>
+-      <item class="javax.swing.JTextArea" icon="/com/intellij/uiDesigner/icons/textArea.svg" removable="false" auto-create-binding="true" can-attach-label="true">
+-        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
+-          <preferred-size width="150" height="50" />
+-        </default-constraints>
+-      </item>
+-      <item class="javax.swing.JTextPane" icon="/com/intellij/uiDesigner/icons/textPane.svg" removable="false" auto-create-binding="true" can-attach-label="true">
+-        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
+-          <preferred-size width="150" height="50" />
+-        </default-constraints>
+-      </item>
+-      <item class="javax.swing.JEditorPane" icon="/com/intellij/uiDesigner/icons/editorPane.svg" removable="false" auto-create-binding="true" can-attach-label="true">
+-        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
+-          <preferred-size width="150" height="50" />
+-        </default-constraints>
+-      </item>
+-      <item class="javax.swing.JComboBox" icon="/com/intellij/uiDesigner/icons/comboBox.svg" removable="false" auto-create-binding="true" can-attach-label="true">
+-        <default-constraints vsize-policy="0" hsize-policy="2" anchor="8" fill="1" />
+-      </item>
+-      <item class="javax.swing.JTable" icon="/com/intellij/uiDesigner/icons/table.svg" removable="false" auto-create-binding="true" can-attach-label="false">
+-        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
+-          <preferred-size width="150" height="50" />
+-        </default-constraints>
+-      </item>
+-      <item class="javax.swing.JList" icon="/com/intellij/uiDesigner/icons/list.svg" removable="false" auto-create-binding="true" can-attach-label="false">
+-        <default-constraints vsize-policy="6" hsize-policy="2" anchor="0" fill="3">
+-          <preferred-size width="150" height="50" />
+-        </default-constraints>
+-      </item>
+-      <item class="javax.swing.JTree" icon="/com/intellij/uiDesigner/icons/tree.svg" removable="false" auto-create-binding="true" can-attach-label="false">
+-        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
+-          <preferred-size width="150" height="50" />
+-        </default-constraints>
+-      </item>
+-      <item class="javax.swing.JTabbedPane" icon="/com/intellij/uiDesigner/icons/tabbedPane.svg" removable="false" auto-create-binding="true" can-attach-label="false">
+-        <default-constraints vsize-policy="3" hsize-policy="3" anchor="0" fill="3">
+-          <preferred-size width="200" height="200" />
+-        </default-constraints>
+-      </item>
+-      <item class="javax.swing.JSplitPane" icon="/com/intellij/uiDesigner/icons/splitPane.svg" removable="false" auto-create-binding="false" can-attach-label="false">
+-        <default-constraints vsize-policy="3" hsize-policy="3" anchor="0" fill="3">
+-          <preferred-size width="200" height="200" />
+-        </default-constraints>
+-      </item>
+-      <item class="javax.swing.JSpinner" icon="/com/intellij/uiDesigner/icons/spinner.svg" removable="false" auto-create-binding="true" can-attach-label="true">
+-        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1" />
+-      </item>
+-      <item class="javax.swing.JSlider" icon="/com/intellij/uiDesigner/icons/slider.svg" removable="false" auto-create-binding="true" can-attach-label="false">
+-        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1" />
+-      </item>
+-      <item class="javax.swing.JSeparator" icon="/com/intellij/uiDesigner/icons/separator.svg" removable="false" auto-create-binding="false" can-attach-label="false">
+-        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3" />
+-      </item>
+-      <item class="javax.swing.JProgressBar" icon="/com/intellij/uiDesigner/icons/progressbar.svg" removable="false" auto-create-binding="true" can-attach-label="false">
+-        <default-constraints vsize-policy="0" hsize-policy="6" anchor="0" fill="1" />
+-      </item>
+-      <item class="javax.swing.JToolBar" icon="/com/intellij/uiDesigner/icons/toolbar.svg" removable="false" auto-create-binding="false" can-attach-label="false">
+-        <default-constraints vsize-policy="0" hsize-policy="6" anchor="0" fill="1">
+-          <preferred-size width="-1" height="20" />
+-        </default-constraints>
+-      </item>
+-      <item class="javax.swing.JToolBar$Separator" icon="/com/intellij/uiDesigner/icons/toolbarSeparator.svg" removable="false" auto-create-binding="false" can-attach-label="false">
+-        <default-constraints vsize-policy="0" hsize-policy="0" anchor="0" fill="1" />
+-      </item>
+-      <item class="javax.swing.JScrollBar" icon="/com/intellij/uiDesigner/icons/scrollbar.svg" removable="false" auto-create-binding="true" can-attach-label="false">
+-        <default-constraints vsize-policy="6" hsize-policy="0" anchor="0" fill="2" />
+-      </item>
+-    </group>
+-  </component>
+-</project>
+\ No newline at end of file
+Index: ../.idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ExternalStorageConfigurationManager\" enabled=\"true\" />\r\n  <component name=\"ProjectRootManager\" version=\"2\" languageLevel=\"JDK_21\" default=\"true\" project-jdk-name=\"21\" project-jdk-type=\"JavaSDK\">\r\n    <output url=\"file://$PROJECT_DIR$/out\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../.idea/misc.xml b/../.idea/misc.xml
+--- a/../.idea/misc.xml	
++++ b/../.idea/misc.xml	
+@@ -1,7 +1,6 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+-  <component name="ExternalStorageConfigurationManager" enabled="true" />
+-  <component name="ProjectRootManager" version="2" languageLevel="JDK_21" default="true" project-jdk-name="21" project-jdk-type="JavaSDK">
++  <component name="ProjectRootManager" version="2" languageLevel="JDK_22" default="true" project-jdk-name="22" project-jdk-type="JavaSDK">
+     <output url="file://$PROJECT_DIR$/out" />
+   </component>
+ </project>
+\ No newline at end of file
+Index: ../.idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../.idea/workspace.xml b/../.idea/workspace.xml
+new file mode 100644
+--- /dev/null	
++++ b/../.idea/workspace.xml	
+@@ -0,0 +1,88 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ChangeListManager">
++    <list default="true" id="e64a37be-179f-4da8-b7ae-0bd3197d3e2b" name="Changes" comment="">
++      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/trabajos-practicos.iml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/Charkowy/Charkowy-tp03/Charkowy-tp03.iml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/Charkowy/Charkowy-tp05/Charkowy-tp05.iml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/Charkowy/Charkowy.iml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/Kappou/Kappou.iml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/Matayoshi/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Matayoshi/.idea/.gitignore" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/Matayoshi/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/Matayoshi/.idea/.name" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/Matayoshi/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Matayoshi/.idea/misc.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/Matayoshi/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Matayoshi/.idea/modules.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/Matayoshi/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Matayoshi/.idea/vcs.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/Matayoshi/Matayoshi.iml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/Matayoshi/binary_search/binary_search.iml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/Matayoshi/binary_search/src/binary_search.java" beforeDir="false" afterPath="$PROJECT_DIR$/Matayoshi/binary_search/src/binary_search.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/Matayoshi/out/production/binary_search/binary_search.class" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/Matayoshi/out/production/binary_search/main.class" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/Matayoshi/tp3/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Matayoshi/tp3/src/Main.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/Oviedo/Tp3SimpleResumen/Tp3SimpleResumen.iml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/Oviedo/busqueda_binaria/busqueda_binaria.iml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/Oviedo/tp3/tp3.iml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/Pardo/Pardo.iml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/Pardo/binarios_tp/binarios_tp.iml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/Pardo/tp3_pardo/tp3_pardo.iml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/Polo/Tp3/Tp3.iml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/Polo/binario/binario.iml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/Valera/TP_3/TP_3.iml" beforeDir="false" />
++    </list>
++    <option name="SHOW_DIALOG" value="false" />
++    <option name="HIGHLIGHT_CONFLICTS" value="true" />
++    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
++    <option name="LAST_RESOLUTION" value="IGNORE" />
++  </component>
++  <component name="Git.Settings">
++    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
++  </component>
++  <component name="ProjectColorInfo"><![CDATA[{
++  "customColor": "",
++  "associatedIndex": 6
++}]]></component>
++  <component name="ProjectId" id="2hhyewkve4B0HbjHBo002thNJpF" />
++  <component name="ProjectViewState">
++    <option name="hideEmptyMiddlePackages" value="true" />
++    <option name="showLibraryContents" value="true" />
++  </component>
++  <component name="PropertiesComponent"><![CDATA[{
++  "keyToString": {
++    "RunOnceActivity.ShowReadmeOnStart": "true",
++    "git-widget-placeholder": "main",
++    "kotlin-language-version-configured": "true"
++  }
++}]]></component>
++  <component name="RunManager">
++    <configuration default="true" type="JetRunConfigurationType">
++      <module name="trabajos-practicos" />
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
++      <module name="trabajos-practicos" />
++      <option name="filePath" />
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++  </component>
++  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
++  <component name="TaskManager">
++    <task active="true" id="Default" summary="Default task">
++      <changelist id="e64a37be-179f-4da8-b7ae-0bd3197d3e2b" name="Changes" comment="" />
++      <created>1718060704362</created>
++      <option name="number" value="Default" />
++      <option name="presentableId" value="Default" />
++      <updated>1718060704362</updated>
++    </task>
++    <servers />
++  </component>
++</project>
+\ No newline at end of file
+Index: ../Oviedo/tp3/tp3.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<module type=\"JAVA_MODULE\" version=\"4\">\r\n  <component name=\"NewModuleRootManager\" inherit-compiler-output=\"true\">\r\n    <exclude-output />\r\n    <content url=\"file://$MODULE_DIR$\">\r\n      <sourceFolder url=\"file://$MODULE_DIR$/src\" isTestSource=\"false\" />\r\n    </content>\r\n    <orderEntry type=\"jdk\" jdkName=\"openjdk-22\" jdkType=\"JavaSDK\" />\r\n    <orderEntry type=\"sourceFolder\" forTests=\"false\" />\r\n  </component>\r\n</module>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../Oviedo/tp3/tp3.iml b/../Oviedo/tp3/tp3.iml
+--- a/../Oviedo/tp3/tp3.iml	
++++ b/../Oviedo/tp3/tp3.iml	
+@@ -5,7 +5,7 @@
+     <content url="file://$MODULE_DIR$">
+       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+     </content>
+-    <orderEntry type="jdk" jdkName="openjdk-22" jdkType="JavaSDK" />
++    <orderEntry type="inheritedJdk" />
+     <orderEntry type="sourceFolder" forTests="false" />
+   </component>
+ </module>
+\ No newline at end of file
+Index: ../Pardo/binarios_tp/binarios_tp.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<module type=\"JAVA_MODULE\" version=\"4\">\r\n  <component name=\"NewModuleRootManager\" inherit-compiler-output=\"true\">\r\n    <exclude-output />\r\n    <content url=\"file://$MODULE_DIR$\">\r\n      <sourceFolder url=\"file://$MODULE_DIR$/src\" isTestSource=\"false\" />\r\n    </content>\r\n    <orderEntry type=\"jdk\" jdkName=\"22\" jdkType=\"JavaSDK\" />\r\n    <orderEntry type=\"sourceFolder\" forTests=\"false\" />\r\n  </component>\r\n</module>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../Pardo/binarios_tp/binarios_tp.iml b/../Pardo/binarios_tp/binarios_tp.iml
+--- a/../Pardo/binarios_tp/binarios_tp.iml	
++++ b/../Pardo/binarios_tp/binarios_tp.iml	
+@@ -5,7 +5,7 @@
+     <content url="file://$MODULE_DIR$">
+       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+     </content>
+-    <orderEntry type="jdk" jdkName="22" jdkType="JavaSDK" />
++    <orderEntry type="inheritedJdk" />
+     <orderEntry type="sourceFolder" forTests="false" />
+   </component>
+ </module>
+\ No newline at end of file
+Index: Charkowy-tp05/Charkowy-tp05.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<module type=\"JAVA_MODULE\" version=\"4\">\r\n  <component name=\"NewModuleRootManager\" inherit-compiler-output=\"true\">\r\n    <exclude-output />\r\n    <content url=\"file://$MODULE_DIR$\">\r\n      <sourceFolder url=\"file://$MODULE_DIR$/src\" isTestSource=\"false\" />\r\n    </content>\r\n    <orderEntry type=\"jdk\" jdkName=\"22\" jdkType=\"JavaSDK\" />\r\n    <orderEntry type=\"sourceFolder\" forTests=\"false\" />\r\n  </component>\r\n</module>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Charkowy-tp05/Charkowy-tp05.iml b/Charkowy-tp05/Charkowy-tp05.iml
+--- a/Charkowy-tp05/Charkowy-tp05.iml	
++++ b/Charkowy-tp05/Charkowy-tp05.iml	
+@@ -5,7 +5,7 @@
+     <content url="file://$MODULE_DIR$">
+       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+     </content>
+-    <orderEntry type="jdk" jdkName="22" jdkType="JavaSDK" />
++    <orderEntry type="inheritedJdk" />
+     <orderEntry type="sourceFolder" forTests="false" />
+   </component>
+ </module>
+\ No newline at end of file
+Index: .idea/modules.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/modules.xml b/.idea/modules.xml
+new file mode 100644
+--- /dev/null	
++++ b/.idea/modules.xml	
+@@ -0,0 +1,10 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectModuleManager">
++    <modules>
++      <module fileurl="file://$PROJECT_DIR$/Charkowy.iml" filepath="$PROJECT_DIR$/Charkowy.iml" />
++      <module fileurl="file://$PROJECT_DIR$/Charkowy-tp03/Charkowy-tp03.iml" filepath="$PROJECT_DIR$/Charkowy-tp03/Charkowy-tp03.iml" />
++      <module fileurl="file://$PROJECT_DIR$/Charkowy-tp05/Charkowy-tp05.iml" filepath="$PROJECT_DIR$/Charkowy-tp05/Charkowy-tp05.iml" />
++    </modules>
++  </component>
++</project>
+\ No newline at end of file
+Index: ../.idea/.gitignore
+===================================================================
+diff --git a/../.idea/.gitignore b/.idea/.gitignore
+rename from ../.idea/.gitignore
+rename to .idea/.gitignore
+--- a/../.idea/.gitignore	
++++ b/.idea/.gitignore	
+@@ -1,4 +1,3 @@
+ # Default ignored files
+ /shelf/
+ /workspace.xml
+-/out/
+Index: .idea/encodings.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/encodings.xml b/.idea/encodings.xml
+new file mode 100644
+--- /dev/null	
++++ b/.idea/encodings.xml	
+@@ -0,0 +1,7 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="Encoding">
++    <file url="file://$PROJECT_DIR$/DBConnPractice/src/main/java" charset="UTF-8" />
++    <file url="file://$PROJECT_DIR$/DBConnPractice/src/main/resources" charset="UTF-8" />
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/vcs.xml b/.idea/vcs.xml
+new file mode 100644
+--- /dev/null	
++++ b/.idea/vcs.xml	
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="$PROJECT_DIR$/.." vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+new file mode 100644
+--- /dev/null	
++++ b/.idea/misc.xml	
+@@ -0,0 +1,14 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ExternalStorageConfigurationManager" enabled="true" />
++  <component name="MavenProjectsManager">
++    <option name="originalFiles">
++      <list>
++        <option value="$PROJECT_DIR$/DBConnPractice/pom.xml" />
++      </list>
++    </option>
++  </component>
++  <component name="ProjectRootManager" version="2" languageLevel="JDK_22" default="true" project-jdk-name="22" project-jdk-type="JavaSDK">
++    <output url="file://$PROJECT_DIR$/out" />
++  </component>
++</project>
+\ No newline at end of file
+Index: ../.idea/compiler.xml
+===================================================================
+diff --git a/../.idea/compiler.xml b/.idea/compiler.xml
+rename from ../.idea/compiler.xml
+rename to .idea/compiler.xml
+--- a/../.idea/compiler.xml	
++++ b/.idea/compiler.xml	
+@@ -6,10 +6,8 @@
+         <sourceOutputDir name="target/generated-sources/annotations" />
+         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+         <outputRelativeToContentRoot value="true" />
++        <module name="DBConnPractice" />
+       </profile>
+     </annotationProcessing>
+-    <bytecodeTargetLevel>
+-      <module name="Pardo" target="1.8" />
+-    </bytecodeTargetLevel>
+   </component>
+ </project>
+\ No newline at end of file
+Index: ../Matayoshi/tp3/src/Main.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>public class Main {\r\n    public static void main(String[] args) {\r\n        System.out.println(\"Hello world!\");\r\n    }\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../Matayoshi/tp3/src/Main.java b/../Matayoshi/tp3/src/Main.java
+--- a/../Matayoshi/tp3/src/Main.java	
++++ b/../Matayoshi/tp3/src/Main.java	
+@@ -1,5 +1,0 @@
+-public class Main {
+-    public static void main(String[] args) {
+-        System.out.println("Hello world!");
+-    }
+-}
+\ No newline at end of file
+Index: DBConnPractice/src/main/resources/logback.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/DBConnPractice/src/main/resources/logback.xml b/DBConnPractice/src/main/resources/logback.xml
+new file mode 100644
+--- /dev/null	
++++ b/DBConnPractice/src/main/resources/logback.xml	
+@@ -0,0 +1,11 @@
++<configuration>
++    <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
++        <encoder>
++            <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
++        </encoder>
++    </appender>
++
++    <root level="INFO">
++        <appender-ref ref="CONSOLE"/>
++    </root>
++</configuration>
+\ No newline at end of file
+Index: ../Matayoshi/.idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ProjectRootManager\" version=\"2\" languageLevel=\"JDK_22_PREVIEW\" project-jdk-name=\"openjdk-22\" project-jdk-type=\"JavaSDK\">\r\n    <output url=\"file://$PROJECT_DIR$/out\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../Matayoshi/.idea/misc.xml b/../Matayoshi/.idea/misc.xml
+--- a/../Matayoshi/.idea/misc.xml	
++++ b/../Matayoshi/.idea/misc.xml	
+@@ -1,6 +1,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="ProjectRootManager" version="2" languageLevel="JDK_22_PREVIEW" project-jdk-name="openjdk-22" project-jdk-type="JavaSDK">
+-    <output url="file://$PROJECT_DIR$/out" />
+-  </component>
+-</project>
+\ No newline at end of file
+Index: ../Matayoshi/.idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"VcsDirectoryMappings\">\r\n    <mapping directory=\"$PROJECT_DIR$/..\" vcs=\"Git\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../Matayoshi/.idea/vcs.xml b/../Matayoshi/.idea/vcs.xml
+--- a/../Matayoshi/.idea/vcs.xml	
++++ b/../Matayoshi/.idea/vcs.xml	
+@@ -1,6 +1,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="VcsDirectoryMappings">
+-    <mapping directory="$PROJECT_DIR$/.." vcs="Git" />
+-  </component>
+-</project>
+\ No newline at end of file
+Index: ../Matayoshi/.idea/.name
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>binary_search.java
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../Matayoshi/.idea/.name b/../Matayoshi/.idea/.name
+--- a/../Matayoshi/.idea/.name	
++++ b/../Matayoshi/.idea/.name	
+@@ -1,1 +1,0 @@
+-binary_search.java
+\ No newline at end of file
+Index: DBConnPractice/pom.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/DBConnPractice/pom.xml b/DBConnPractice/pom.xml
+new file mode 100644
+--- /dev/null	
++++ b/DBConnPractice/pom.xml	
+@@ -0,0 +1,33 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project xmlns="http://maven.apache.org/POM/4.0.0"
++         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
++         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
++    <modelVersion>4.0.0</modelVersion>
++
++    <groupId>org.example</groupId>
++    <artifactId>DBConnPractice</artifactId>
++    <version>1.0-SNAPSHOT</version>
++
++
++<dependencies>
++    <dependency>
++        <groupId>org.mariadb.jdbc</groupId>
++        <artifactId>mariadb-java-client</artifactId>
++        <version>3.4.0</version>
++    </dependency>
++    <dependency>
++        <groupId>org.slf4j</groupId>
++        <artifactId>slf4j-simple</artifactId>
++        <version>2.0.7</version>
++    </dependency>
++</dependencies>
++    <properties>
++        <maven.compiler.source>22</maven.compiler.source>
++        <maven.compiler.target>22</maven.compiler.target>
++        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
++    </properties>
++
++
++
++
++</project>
+Index: .idea/dbnavigator.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/dbnavigator.xml b/.idea/dbnavigator.xml
+new file mode 100644
+--- /dev/null	
++++ b/.idea/dbnavigator.xml	
+@@ -0,0 +1,520 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="DBNavigator.Project.DDLFileAttachmentManager">
++    <mappings />
++    <preferences />
++  </component>
++  <component name="DBNavigator.Project.DatabaseBrowserManager">
++    <autoscroll-to-editor value="false" />
++    <autoscroll-from-editor value="true" />
++    <show-object-properties value="true" />
++    <loaded-nodes />
++  </component>
++  <component name="DBNavigator.Project.DatabaseConsoleManager">
++    <connection id="6684a790-5423-49c8-ade4-50e2b7ab0bec">
++      <console name="charko_java" type="STANDARD" schema="" session="Main" />
++    </connection>
++  </component>
++  <component name="DBNavigator.Project.DatabaseFileManager">
++    <open-files />
++  </component>
++  <component name="DBNavigator.Project.DatasetFilterManager">
++    <filter-actions connection-id="6684a790-5423-49c8-ade4-50e2b7ab0bec" dataset="charko_java.products" active-filter-id="" />
++  </component>
++  <component name="DBNavigator.Project.ObjectQuickFilterManager">
++    <last-used-operator value="EQUAL" />
++    <filters />
++  </component>
++  <component name="DBNavigator.Project.Settings">
++    <connections>
++      <connection id="6684a790-5423-49c8-ade4-50e2b7ab0bec" active="true" signed="true">
++        <database>
++          <name value="charko_java" />
++          <description value="" />
++          <database-type value="MYSQL" />
++          <config-type value="BASIC" />
++          <database-version value="5.5" />
++          <driver-source value="BUNDLED" />
++          <driver-library value="" />
++          <driver value="" />
++          <url-type value="DATABASE" />
++          <host value="localhost" />
++          <port value="3306" />
++          <database value="mysql" />
++          <tns-folder value="" />
++          <tns-profile value="" />
++          <type value="USER" />
++          <user value="root" />
++          <deprecated-pwd value="" />
++        </database>
++        <properties>
++          <auto-commit value="false" />
++        </properties>
++        <ssh-settings>
++          <active value="false" />
++          <proxy-host value="" />
++          <proxy-port value="22" />
++          <proxy-user value="" />
++          <deprecated-proxy-pwd value="" />
++          <auth-type value="PASSWORD" />
++          <key-file value="" />
++          <key-passphrase value="" />
++        </ssh-settings>
++        <ssl-settings>
++          <active value="false" />
++          <certificate-authority-file value="" />
++          <client-certificate-file value="" />
++          <client-key-file value="" />
++        </ssl-settings>
++        <details>
++          <charset value="UTF-8" />
++          <session-management value="true" />
++          <ddl-file-binding value="true" />
++          <database-logging value="true" />
++          <connect-automatically value="true" />
++          <restore-workspace value="true" />
++          <restore-workspace-deep value="false" />
++          <environment-type value="default" />
++          <connectivity-timeout value="30" />
++          <idle-time-to-disconnect value="30" />
++          <idle-time-to-disconnect-pool value="5" />
++          <credential-expiry-time value="10" />
++          <max-connection-pool-size value="7" />
++          <alternative-statement-delimiter value="" />
++        </details>
++        <debugger>
++          <compile-dependencies value="true" />
++          <tcp-driver-tunneling value="false" />
++          <tcp-host-address value="" />
++          <tcp-port-from value="4000" />
++          <tcp-port-to value="4999" />
++          <debugger-type value="ASK" />
++        </debugger>
++        <object-filters hide-empty-schemas="false" hide-pseudo-columns="false" hide-audit-columns="false">
++          <object-filters />
++          <object-type-filter use-master-settings="true">
++            <object-type name="SCHEMA" enabled="true" />
++            <object-type name="USER" enabled="true" />
++            <object-type name="ROLE" enabled="true" />
++            <object-type name="PRIVILEGE" enabled="true" />
++            <object-type name="CHARSET" enabled="true" />
++            <object-type name="TABLE" enabled="true" />
++            <object-type name="VIEW" enabled="true" />
++            <object-type name="MATERIALIZED_VIEW" enabled="true" />
++            <object-type name="NESTED_TABLE" enabled="true" />
++            <object-type name="COLUMN" enabled="true" />
++            <object-type name="INDEX" enabled="true" />
++            <object-type name="CONSTRAINT" enabled="true" />
++            <object-type name="DATASET_TRIGGER" enabled="true" />
++            <object-type name="DATABASE_TRIGGER" enabled="true" />
++            <object-type name="SYNONYM" enabled="true" />
++            <object-type name="SEQUENCE" enabled="true" />
++            <object-type name="PROCEDURE" enabled="true" />
++            <object-type name="FUNCTION" enabled="true" />
++            <object-type name="PACKAGE" enabled="true" />
++            <object-type name="TYPE" enabled="true" />
++            <object-type name="TYPE_ATTRIBUTE" enabled="true" />
++            <object-type name="ARGUMENT" enabled="true" />
++            <object-type name="DIMENSION" enabled="true" />
++            <object-type name="CLUSTER" enabled="true" />
++            <object-type name="DBLINK" enabled="true" />
++          </object-type-filter>
++        </object-filters>
++      </connection>
++    </connections>
++    <browser-settings>
++      <general>
++        <display-mode value="TABBED" />
++        <navigation-history-size value="100" />
++        <show-object-details value="false" />
++        <enable-sticky-paths value="true" />
++      </general>
++      <filters>
++        <object-type-filter>
++          <object-type name="SCHEMA" enabled="true" />
++          <object-type name="USER" enabled="true" />
++          <object-type name="ROLE" enabled="true" />
++          <object-type name="PRIVILEGE" enabled="true" />
++          <object-type name="CHARSET" enabled="true" />
++          <object-type name="TABLE" enabled="true" />
++          <object-type name="VIEW" enabled="true" />
++          <object-type name="MATERIALIZED_VIEW" enabled="true" />
++          <object-type name="NESTED_TABLE" enabled="true" />
++          <object-type name="COLUMN" enabled="true" />
++          <object-type name="INDEX" enabled="true" />
++          <object-type name="CONSTRAINT" enabled="true" />
++          <object-type name="DATASET_TRIGGER" enabled="true" />
++          <object-type name="DATABASE_TRIGGER" enabled="true" />
++          <object-type name="SYNONYM" enabled="true" />
++          <object-type name="SEQUENCE" enabled="true" />
++          <object-type name="PROCEDURE" enabled="true" />
++          <object-type name="FUNCTION" enabled="true" />
++          <object-type name="PACKAGE" enabled="true" />
++          <object-type name="TYPE" enabled="true" />
++          <object-type name="TYPE_ATTRIBUTE" enabled="true" />
++          <object-type name="ARGUMENT" enabled="true" />
++          <object-type name="DIMENSION" enabled="true" />
++          <object-type name="CLUSTER" enabled="true" />
++          <object-type name="DBLINK" enabled="true" />
++        </object-type-filter>
++      </filters>
++      <sorting>
++        <object-type name="COLUMN" sorting-type="NAME" />
++        <object-type name="FUNCTION" sorting-type="NAME" />
++        <object-type name="PROCEDURE" sorting-type="NAME" />
++        <object-type name="ARGUMENT" sorting-type="POSITION" />
++        <object-type name="TYPE ATTRIBUTE" sorting-type="POSITION" />
++      </sorting>
++      <default-editors>
++        <object-type name="VIEW" editor-type="SELECTION" />
++        <object-type name="PACKAGE" editor-type="SELECTION" />
++        <object-type name="TYPE" editor-type="SELECTION" />
++      </default-editors>
++    </browser-settings>
++    <navigation-settings>
++      <lookup-filters>
++        <lookup-objects>
++          <object-type name="SCHEMA" enabled="true" />
++          <object-type name="USER" enabled="false" />
++          <object-type name="ROLE" enabled="false" />
++          <object-type name="PRIVILEGE" enabled="false" />
++          <object-type name="CHARSET" enabled="false" />
++          <object-type name="TABLE" enabled="true" />
++          <object-type name="VIEW" enabled="true" />
++          <object-type name="MATERIALIZED VIEW" enabled="true" />
++          <object-type name="INDEX" enabled="true" />
++          <object-type name="CONSTRAINT" enabled="true" />
++          <object-type name="DATASET TRIGGER" enabled="true" />
++          <object-type name="DATABASE TRIGGER" enabled="true" />
++          <object-type name="SYNONYM" enabled="false" />
++          <object-type name="SEQUENCE" enabled="true" />
++          <object-type name="PROCEDURE" enabled="true" />
++          <object-type name="FUNCTION" enabled="true" />
++          <object-type name="PACKAGE" enabled="true" />
++          <object-type name="TYPE" enabled="true" />
++          <object-type name="DIMENSION" enabled="false" />
++          <object-type name="CLUSTER" enabled="false" />
++          <object-type name="DBLINK" enabled="true" />
++        </lookup-objects>
++        <force-database-load value="false" />
++        <prompt-connection-selection value="true" />
++        <prompt-schema-selection value="true" />
++      </lookup-filters>
++    </navigation-settings>
++    <dataset-grid-settings>
++      <general>
++        <enable-zooming value="true" />
++        <enable-column-tooltip value="true" />
++      </general>
++      <sorting>
++        <nulls-first value="true" />
++        <max-sorting-columns value="4" />
++      </sorting>
++      <audit-columns>
++        <column-names value="" />
++        <visible value="true" />
++        <editable value="false" />
++      </audit-columns>
++    </dataset-grid-settings>
++    <dataset-editor-settings>
++      <text-editor-popup>
++        <active value="false" />
++        <active-if-empty value="false" />
++        <data-length-threshold value="100" />
++        <popup-delay value="1000" />
++      </text-editor-popup>
++      <values-actions-popup>
++        <show-popup-button value="true" />
++        <element-count-threshold value="1000" />
++        <data-length-threshold value="250" />
++      </values-actions-popup>
++      <general>
++        <fetch-block-size value="100" />
++        <fetch-timeout value="30" />
++        <trim-whitespaces value="true" />
++        <convert-empty-strings-to-null value="true" />
++        <select-content-on-cell-edit value="true" />
++        <large-value-preview-active value="true" />
++      </general>
++      <filters>
++        <prompt-filter-dialog value="true" />
++        <default-filter-type value="BASIC" />
++      </filters>
++      <qualified-text-editor text-length-threshold="300">
++        <content-types>
++          <content-type name="Text" enabled="true" />
++          <content-type name="Properties" enabled="true" />
++          <content-type name="XML" enabled="true" />
++          <content-type name="DTD" enabled="true" />
++          <content-type name="HTML" enabled="true" />
++          <content-type name="XHTML" enabled="true" />
++          <content-type name="Java" enabled="true" />
++          <content-type name="SQL" enabled="true" />
++          <content-type name="PL/SQL" enabled="true" />
++          <content-type name="JSON" enabled="true" />
++          <content-type name="JSON5" enabled="true" />
++          <content-type name="Groovy" enabled="true" />
++          <content-type name="YAML" enabled="true" />
++          <content-type name="Manifest" enabled="true" />
++        </content-types>
++      </qualified-text-editor>
++      <record-navigation>
++        <navigation-target value="VIEWER" />
++      </record-navigation>
++    </dataset-editor-settings>
++    <code-editor-settings>
++      <general>
++        <show-object-navigation-gutter value="false" />
++        <show-spec-declaration-navigation-gutter value="true" />
++        <enable-spellchecking value="true" />
++        <enable-reference-spellchecking value="false" />
++      </general>
++      <confirmations>
++        <save-changes value="false" />
++        <revert-changes value="true" />
++        <exit-on-changes value="ASK" />
++      </confirmations>
++    </code-editor-settings>
++    <code-completion-settings>
++      <filters>
++        <basic-filter>
++          <filter-element type="RESERVED_WORD" id="keyword" selected="true" />
++          <filter-element type="RESERVED_WORD" id="function" selected="true" />
++          <filter-element type="RESERVED_WORD" id="parameter" selected="true" />
++          <filter-element type="RESERVED_WORD" id="datatype" selected="true" />
++          <filter-element type="RESERVED_WORD" id="exception" selected="true" />
++          <filter-element type="OBJECT" id="schema" selected="true" />
++          <filter-element type="OBJECT" id="role" selected="true" />
++          <filter-element type="OBJECT" id="user" selected="true" />
++          <filter-element type="OBJECT" id="privilege" selected="true" />
++          <user-schema>
++            <filter-element type="OBJECT" id="table" selected="true" />
++            <filter-element type="OBJECT" id="view" selected="true" />
++            <filter-element type="OBJECT" id="materialized view" selected="true" />
++            <filter-element type="OBJECT" id="index" selected="true" />
++            <filter-element type="OBJECT" id="constraint" selected="true" />
++            <filter-element type="OBJECT" id="trigger" selected="true" />
++            <filter-element type="OBJECT" id="synonym" selected="false" />
++            <filter-element type="OBJECT" id="sequence" selected="true" />
++            <filter-element type="OBJECT" id="procedure" selected="true" />
++            <filter-element type="OBJECT" id="function" selected="true" />
++            <filter-element type="OBJECT" id="package" selected="true" />
++            <filter-element type="OBJECT" id="type" selected="true" />
++            <filter-element type="OBJECT" id="dimension" selected="true" />
++            <filter-element type="OBJECT" id="cluster" selected="true" />
++            <filter-element type="OBJECT" id="dblink" selected="true" />
++          </user-schema>
++          <public-schema>
++            <filter-element type="OBJECT" id="table" selected="false" />
++            <filter-element type="OBJECT" id="view" selected="false" />
++            <filter-element type="OBJECT" id="materialized view" selected="false" />
++            <filter-element type="OBJECT" id="index" selected="false" />
++            <filter-element type="OBJECT" id="constraint" selected="false" />
++            <filter-element type="OBJECT" id="trigger" selected="false" />
++            <filter-element type="OBJECT" id="synonym" selected="false" />
++            <filter-element type="OBJECT" id="sequence" selected="false" />
++            <filter-element type="OBJECT" id="procedure" selected="false" />
++            <filter-element type="OBJECT" id="function" selected="false" />
++            <filter-element type="OBJECT" id="package" selected="false" />
++            <filter-element type="OBJECT" id="type" selected="false" />
++            <filter-element type="OBJECT" id="dimension" selected="false" />
++            <filter-element type="OBJECT" id="cluster" selected="false" />
++            <filter-element type="OBJECT" id="dblink" selected="false" />
++          </public-schema>
++          <any-schema>
++            <filter-element type="OBJECT" id="table" selected="true" />
++            <filter-element type="OBJECT" id="view" selected="true" />
++            <filter-element type="OBJECT" id="materialized view" selected="true" />
++            <filter-element type="OBJECT" id="index" selected="true" />
++            <filter-element type="OBJECT" id="constraint" selected="true" />
++            <filter-element type="OBJECT" id="trigger" selected="true" />
++            <filter-element type="OBJECT" id="synonym" selected="true" />
++            <filter-element type="OBJECT" id="sequence" selected="true" />
++            <filter-element type="OBJECT" id="procedure" selected="true" />
++            <filter-element type="OBJECT" id="function" selected="true" />
++            <filter-element type="OBJECT" id="package" selected="true" />
++            <filter-element type="OBJECT" id="type" selected="true" />
++            <filter-element type="OBJECT" id="dimension" selected="true" />
++            <filter-element type="OBJECT" id="cluster" selected="true" />
++            <filter-element type="OBJECT" id="dblink" selected="true" />
++          </any-schema>
++        </basic-filter>
++        <extended-filter>
++          <filter-element type="RESERVED_WORD" id="keyword" selected="true" />
++          <filter-element type="RESERVED_WORD" id="function" selected="true" />
++          <filter-element type="RESERVED_WORD" id="parameter" selected="true" />
++          <filter-element type="RESERVED_WORD" id="datatype" selected="true" />
++          <filter-element type="RESERVED_WORD" id="exception" selected="true" />
++          <filter-element type="OBJECT" id="schema" selected="true" />
++          <filter-element type="OBJECT" id="user" selected="true" />
++          <filter-element type="OBJECT" id="role" selected="true" />
++          <filter-element type="OBJECT" id="privilege" selected="true" />
++          <user-schema>
++            <filter-element type="OBJECT" id="table" selected="true" />
++            <filter-element type="OBJECT" id="view" selected="true" />
++            <filter-element type="OBJECT" id="materialized view" selected="true" />
++            <filter-element type="OBJECT" id="index" selected="true" />
++            <filter-element type="OBJECT" id="constraint" selected="true" />
++            <filter-element type="OBJECT" id="trigger" selected="true" />
++            <filter-element type="OBJECT" id="synonym" selected="true" />
++            <filter-element type="OBJECT" id="sequence" selected="true" />
++            <filter-element type="OBJECT" id="procedure" selected="true" />
++            <filter-element type="OBJECT" id="function" selected="true" />
++            <filter-element type="OBJECT" id="package" selected="true" />
++            <filter-element type="OBJECT" id="type" selected="true" />
++            <filter-element type="OBJECT" id="dimension" selected="true" />
++            <filter-element type="OBJECT" id="cluster" selected="true" />
++            <filter-element type="OBJECT" id="dblink" selected="true" />
++          </user-schema>
++          <public-schema>
++            <filter-element type="OBJECT" id="table" selected="true" />
++            <filter-element type="OBJECT" id="view" selected="true" />
++            <filter-element type="OBJECT" id="materialized view" selected="true" />
++            <filter-element type="OBJECT" id="index" selected="true" />
++            <filter-element type="OBJECT" id="constraint" selected="true" />
++            <filter-element type="OBJECT" id="trigger" selected="true" />
++            <filter-element type="OBJECT" id="synonym" selected="true" />
++            <filter-element type="OBJECT" id="sequence" selected="true" />
++            <filter-element type="OBJECT" id="procedure" selected="true" />
++            <filter-element type="OBJECT" id="function" selected="true" />
++            <filter-element type="OBJECT" id="package" selected="true" />
++            <filter-element type="OBJECT" id="type" selected="true" />
++            <filter-element type="OBJECT" id="dimension" selected="true" />
++            <filter-element type="OBJECT" id="cluster" selected="true" />
++            <filter-element type="OBJECT" id="dblink" selected="true" />
++          </public-schema>
++          <any-schema>
++            <filter-element type="OBJECT" id="table" selected="true" />
++            <filter-element type="OBJECT" id="view" selected="true" />
++            <filter-element type="OBJECT" id="materialized view" selected="true" />
++            <filter-element type="OBJECT" id="index" selected="true" />
++            <filter-element type="OBJECT" id="constraint" selected="true" />
++            <filter-element type="OBJECT" id="trigger" selected="true" />
++            <filter-element type="OBJECT" id="synonym" selected="true" />
++            <filter-element type="OBJECT" id="sequence" selected="true" />
++            <filter-element type="OBJECT" id="procedure" selected="true" />
++            <filter-element type="OBJECT" id="function" selected="true" />
++            <filter-element type="OBJECT" id="package" selected="true" />
++            <filter-element type="OBJECT" id="type" selected="true" />
++            <filter-element type="OBJECT" id="dimension" selected="true" />
++            <filter-element type="OBJECT" id="cluster" selected="true" />
++            <filter-element type="OBJECT" id="dblink" selected="true" />
++          </any-schema>
++        </extended-filter>
++      </filters>
++      <sorting enabled="true">
++        <sorting-element type="RESERVED_WORD" id="keyword" />
++        <sorting-element type="RESERVED_WORD" id="datatype" />
++        <sorting-element type="OBJECT" id="column" />
++        <sorting-element type="OBJECT" id="table" />
++        <sorting-element type="OBJECT" id="view" />
++        <sorting-element type="OBJECT" id="materialized view" />
++        <sorting-element type="OBJECT" id="index" />
++        <sorting-element type="OBJECT" id="constraint" />
++        <sorting-element type="OBJECT" id="trigger" />
++        <sorting-element type="OBJECT" id="synonym" />
++        <sorting-element type="OBJECT" id="sequence" />
++        <sorting-element type="OBJECT" id="procedure" />
++        <sorting-element type="OBJECT" id="function" />
++        <sorting-element type="OBJECT" id="package" />
++        <sorting-element type="OBJECT" id="type" />
++        <sorting-element type="OBJECT" id="dimension" />
++        <sorting-element type="OBJECT" id="cluster" />
++        <sorting-element type="OBJECT" id="dblink" />
++        <sorting-element type="OBJECT" id="schema" />
++        <sorting-element type="OBJECT" id="role" />
++        <sorting-element type="OBJECT" id="user" />
++        <sorting-element type="RESERVED_WORD" id="function" />
++        <sorting-element type="RESERVED_WORD" id="parameter" />
++      </sorting>
++      <format>
++        <enforce-code-style-case value="true" />
++      </format>
++    </code-completion-settings>
++    <execution-engine-settings>
++      <statement-execution>
++        <fetch-block-size value="100" />
++        <execution-timeout value="20" />
++        <debug-execution-timeout value="600" />
++        <focus-result value="false" />
++        <prompt-execution value="false" />
++      </statement-execution>
++      <script-execution>
++        <command-line-interfaces />
++        <execution-timeout value="300" />
++      </script-execution>
++      <method-execution>
++        <execution-timeout value="30" />
++        <debug-execution-timeout value="600" />
++        <parameter-history-size value="10" />
++      </method-execution>
++    </execution-engine-settings>
++    <operation-settings>
++      <transactions>
++        <uncommitted-changes>
++          <on-project-close value="ASK" />
++          <on-disconnect value="ASK" />
++          <on-autocommit-toggle value="ASK" />
++        </uncommitted-changes>
++        <multiple-uncommitted-changes>
++          <on-commit value="ASK" />
++          <on-rollback value="ASK" />
++        </multiple-uncommitted-changes>
++      </transactions>
++      <session-browser>
++        <disconnect-session value="ASK" />
++        <kill-session value="ASK" />
++        <reload-on-filter-change value="false" />
++      </session-browser>
++      <compiler>
++        <compile-type value="KEEP" />
++        <compile-dependencies value="ASK" />
++        <always-show-controls value="false" />
++      </compiler>
++    </operation-settings>
++    <ddl-file-settings>
++      <extensions>
++        <mapping file-type-id="VIEW" extensions="vw" />
++        <mapping file-type-id="TRIGGER" extensions="trg" />
++        <mapping file-type-id="PROCEDURE" extensions="prc" />
++        <mapping file-type-id="FUNCTION" extensions="fnc" />
++        <mapping file-type-id="PACKAGE" extensions="pkg" />
++        <mapping file-type-id="PACKAGE_SPEC" extensions="pks" />
++        <mapping file-type-id="PACKAGE_BODY" extensions="pkb" />
++        <mapping file-type-id="TYPE" extensions="tpe" />
++        <mapping file-type-id="TYPE_SPEC" extensions="tps" />
++        <mapping file-type-id="TYPE_BODY" extensions="tpb" />
++      </extensions>
++      <general>
++        <lookup-ddl-files value="true" />
++        <create-ddl-files value="false" />
++        <synchronize-ddl-files value="true" />
++        <use-qualified-names value="false" />
++        <make-scripts-rerunnable value="true" />
++      </general>
++    </ddl-file-settings>
++    <general-settings>
++      <regional-settings>
++        <date-format value="MEDIUM" />
++        <number-format value="UNGROUPED" />
++        <locale value="SYSTEM_DEFAULT" />
++        <use-custom-formats value="false" />
++      </regional-settings>
++      <environment>
++        <environment-types>
++          <environment-type id="development" name="Development" description="Development environment" color="-2430209/-12296320" readonly-code="false" readonly-data="false" />
++          <environment-type id="integration" name="Integration" description="Integration environment" color="-2621494/-12163514" readonly-code="true" readonly-data="false" />
++          <environment-type id="production" name="Production" description="Productive environment" color="-11574/-10271420" readonly-code="true" readonly-data="true" />
++          <environment-type id="other" name="Other" description="" color="-1576/-10724543" readonly-code="false" readonly-data="false" />
++        </environment-types>
++        <visibility-settings>
++          <connection-tabs value="true" />
++          <dialog-headers value="true" />
++          <object-editor-tabs value="true" />
++          <script-editor-tabs value="false" />
++          <execution-result-tabs value="true" />
++        </visibility-settings>
++      </environment>
++    </general-settings>
++  </component>
++</project>
+\ No newline at end of file
+Index: ../Matayoshi/.idea/modules.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ProjectModuleManager\">\r\n    <modules>\r\n      <module fileurl=\"file://$PROJECT_DIR$/Matayoshi.iml\" filepath=\"$PROJECT_DIR$/Matayoshi.iml\" />\r\n      <module fileurl=\"file://$PROJECT_DIR$/binary_search/binary_search.iml\" filepath=\"$PROJECT_DIR$/binary_search/binary_search.iml\" />\r\n      <module fileurl=\"file://$PROJECT_DIR$/tp3/tp3.iml\" filepath=\"$PROJECT_DIR$/tp3/tp3.iml\" />\r\n    </modules>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../Matayoshi/.idea/modules.xml b/../Matayoshi/.idea/modules.xml
+--- a/../Matayoshi/.idea/modules.xml	
++++ b/../Matayoshi/.idea/modules.xml	
+@@ -1,10 +1,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="ProjectModuleManager">
+-    <modules>
+-      <module fileurl="file://$PROJECT_DIR$/Matayoshi.iml" filepath="$PROJECT_DIR$/Matayoshi.iml" />
+-      <module fileurl="file://$PROJECT_DIR$/binary_search/binary_search.iml" filepath="$PROJECT_DIR$/binary_search/binary_search.iml" />
+-      <module fileurl="file://$PROJECT_DIR$/tp3/tp3.iml" filepath="$PROJECT_DIR$/tp3/tp3.iml" />
+-    </modules>
+-  </component>
+-</project>
+\ No newline at end of file
+Index: ../Matayoshi/.idea/.gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+># Default ignored files\r\n/shelf/\r\n/workspace.xml\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../Matayoshi/.idea/.gitignore b/../Matayoshi/.idea/.gitignore
+--- a/../Matayoshi/.idea/.gitignore	
++++ b/../Matayoshi/.idea/.gitignore	
+@@ -1,3 +1,0 @@
+-# Default ignored files
+-/shelf/
+-/workspace.xml
+Index: ../Matayoshi/Matayoshi.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<module type=\"JAVA_MODULE\" version=\"4\">\r\n  <component name=\"NewModuleRootManager\" inherit-compiler-output=\"true\">\r\n    <exclude-output />\r\n    <content url=\"file://$MODULE_DIR$\">\r\n      <sourceFolder url=\"file://$MODULE_DIR$/tp3\" isTestSource=\"false\" />\r\n    </content>\r\n    <orderEntry type=\"inheritedJdk\" />\r\n    <orderEntry type=\"sourceFolder\" forTests=\"false\" />\r\n  </component>\r\n</module>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../Matayoshi/Matayoshi.iml b/../Matayoshi/Matayoshi.iml
+--- a/../Matayoshi/Matayoshi.iml	
++++ b/../Matayoshi/Matayoshi.iml	
+@@ -1,11 +1,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<module type="JAVA_MODULE" version="4">
+-  <component name="NewModuleRootManager" inherit-compiler-output="true">
+-    <exclude-output />
+-    <content url="file://$MODULE_DIR$">
+-      <sourceFolder url="file://$MODULE_DIR$/tp3" isTestSource="false" />
+-    </content>
+-    <orderEntry type="inheritedJdk" />
+-    <orderEntry type="sourceFolder" forTests="false" />
+-  </component>
+-</module>
+\ No newline at end of file
+Index: ../Matayoshi/binary_search/binary_search.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<module type=\"JAVA_MODULE\" version=\"4\">\r\n  <component name=\"NewModuleRootManager\" inherit-compiler-output=\"true\">\r\n    <exclude-output />\r\n    <content url=\"file://$MODULE_DIR$\">\r\n      <sourceFolder url=\"file://$MODULE_DIR$/src\" isTestSource=\"false\" />\r\n    </content>\r\n    <orderEntry type=\"jdk\" jdkName=\"22\" jdkType=\"JavaSDK\" />\r\n    <orderEntry type=\"sourceFolder\" forTests=\"false\" />\r\n  </component>\r\n</module>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../Matayoshi/binary_search/binary_search.iml b/../Matayoshi/binary_search/binary_search.iml
+--- a/../Matayoshi/binary_search/binary_search.iml	
++++ b/../Matayoshi/binary_search/binary_search.iml	
+@@ -1,11 +1,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<module type="JAVA_MODULE" version="4">
+-  <component name="NewModuleRootManager" inherit-compiler-output="true">
+-    <exclude-output />
+-    <content url="file://$MODULE_DIR$">
+-      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+-    </content>
+-    <orderEntry type="jdk" jdkName="22" jdkType="JavaSDK" />
+-    <orderEntry type="sourceFolder" forTests="false" />
+-  </component>
+-</module>
+\ No newline at end of file
+Index: ../Matayoshi/binary_search/src/binary_search.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import java.util.Arrays;\r\npublic class binary_search {\r\n//    public static void main(String[] args) {\r\n//        int result=0;\r\n//        int[] array = new int[1000];\r\n//        for (int x=0;x<1000;x++)\r\n//            array[x] = (int) (Math.random() * 1000) + 1;\r\n//        /*System.out.println(\"Unsorted array\");\r\n//        for (int j : array) {\r\n//            System.out.println(j);\r\n//        }*/\r\n//        Arrays.sort(array);\r\n//        /*System.out.println(\" \");\r\n//        System.out.println(\"Sorted array\");\r\n//        for (int j : array) {\r\n//            System.out.println(j);\r\n//        }*/\r\n//        //int reqNum = (int) (Math.random() * 20) + 1;\r\n//        int reqNum = array[(int) (Math.random() * 999) + 1];\r\n//        System.out.println(\" \");\r\n//        System.out.println(\"Required Number\");\r\n//        System.out.println(reqNum);\r\n//\r\n//        int ini = 0;\r\n//        int fin = array.length;\r\n//        int iterations = 0;\r\n//\r\n//        while(ini<=fin) {\r\n//            int pos = (ini + fin) / 2;\r\n//            if (array[pos] == reqNum)\r\n//                result = pos;\r\n//\r\n//            if (array[pos] < reqNum)\r\n//                ini = pos + 1;\r\n//            else\r\n//                fin = pos - 1;\r\n//            iterations++;\r\n//        }\r\n//        System.out.println(\" \");\r\n//        System.out.println(\"Result\");\r\n//        if(array[result]==reqNum) {\r\n//            System.out.println(\"The number '\"+array[result]+\"' was found!!\");\r\n//        }\r\n//        else{\r\n//            System.out.println(\"Number not found in list!!\");\r\n//        }\r\n//        System.out.println(\" \");\r\n//        System.out.println(\"Number of iterations\");\r\n//        System.out.println(iterations);\r\n//    }\r\n    int ini = 0;\r\n    int fin;\r\n    int mid;\r\n    int reqNum;\r\n    int[] array;\r\n    int iterations = 0;\r\n    int max;\r\n    int length;\r\n\r\n    public void reqNum(int reqNum) {\r\n        this.reqNum = reqNum;\r\n    }\r\n    public void setMaxRandom(int max) {this.max = max;}\r\n    public void setArrayLength(int length) {this.length = length;this.array=new int[length];}\r\n    public void fillArray(){\r\n        for (int x=0;x<length;x++)\r\n            array[x] = (int) (Math.random() * max) + 1;\r\n    }\r\n    public void sortArray(){\r\n        Arrays.sort(array);\r\n    }\r\n    int binarySearch()\r\n    {\r\n        int low = 0, high = array.length - 1;\r\n        while (low <= high) {\r\n            mid = low + (high - low) / 2;\r\n\r\n            if (array[mid] == reqNum)\r\n                return array[mid];\r\n\r\n            if (array[mid] < reqNum)\r\n                low = mid + 1;\r\n\r\n            else\r\n                high = mid - 1;\r\n\r\n            iterations++;\r\n        }\r\n\r\n        return -1;\r\n    }\r\n    public int reqNum(){\r\n        return reqNum;\r\n    }\r\n    public int iterations(){\r\n        return iterations;\r\n    }\r\n    public int[] showList(){\r\n        return array;\r\n    }\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../Matayoshi/binary_search/src/binary_search.java b/../Matayoshi/binary_search/src/binary_search.java
+--- a/../Matayoshi/binary_search/src/binary_search.java	
++++ b/../Matayoshi/binary_search/src/binary_search.java	
+@@ -1,101 +1,0 @@
+-import java.util.Arrays;
+-public class binary_search {
+-//    public static void main(String[] args) {
+-//        int result=0;
+-//        int[] array = new int[1000];
+-//        for (int x=0;x<1000;x++)
+-//            array[x] = (int) (Math.random() * 1000) + 1;
+-//        /*System.out.println("Unsorted array");
+-//        for (int j : array) {
+-//            System.out.println(j);
+-//        }*/
+-//        Arrays.sort(array);
+-//        /*System.out.println(" ");
+-//        System.out.println("Sorted array");
+-//        for (int j : array) {
+-//            System.out.println(j);
+-//        }*/
+-//        //int reqNum = (int) (Math.random() * 20) + 1;
+-//        int reqNum = array[(int) (Math.random() * 999) + 1];
+-//        System.out.println(" ");
+-//        System.out.println("Required Number");
+-//        System.out.println(reqNum);
+-//
+-//        int ini = 0;
+-//        int fin = array.length;
+-//        int iterations = 0;
+-//
+-//        while(ini<=fin) {
+-//            int pos = (ini + fin) / 2;
+-//            if (array[pos] == reqNum)
+-//                result = pos;
+-//
+-//            if (array[pos] < reqNum)
+-//                ini = pos + 1;
+-//            else
+-//                fin = pos - 1;
+-//            iterations++;
+-//        }
+-//        System.out.println(" ");
+-//        System.out.println("Result");
+-//        if(array[result]==reqNum) {
+-//            System.out.println("The number '"+array[result]+"' was found!!");
+-//        }
+-//        else{
+-//            System.out.println("Number not found in list!!");
+-//        }
+-//        System.out.println(" ");
+-//        System.out.println("Number of iterations");
+-//        System.out.println(iterations);
+-//    }
+-    int ini = 0;
+-    int fin;
+-    int mid;
+-    int reqNum;
+-    int[] array;
+-    int iterations = 0;
+-    int max;
+-    int length;
+-
+-    public void reqNum(int reqNum) {
+-        this.reqNum = reqNum;
+-    }
+-    public void setMaxRandom(int max) {this.max = max;}
+-    public void setArrayLength(int length) {this.length = length;this.array=new int[length];}
+-    public void fillArray(){
+-        for (int x=0;x<length;x++)
+-            array[x] = (int) (Math.random() * max) + 1;
+-    }
+-    public void sortArray(){
+-        Arrays.sort(array);
+-    }
+-    int binarySearch()
+-    {
+-        int low = 0, high = array.length - 1;
+-        while (low <= high) {
+-            mid = low + (high - low) / 2;
+-
+-            if (array[mid] == reqNum)
+-                return array[mid];
+-
+-            if (array[mid] < reqNum)
+-                low = mid + 1;
+-
+-            else
+-                high = mid - 1;
+-
+-            iterations++;
+-        }
+-
+-        return -1;
+-    }
+-    public int reqNum(){
+-        return reqNum;
+-    }
+-    public int iterations(){
+-        return iterations;
+-    }
+-    public int[] showList(){
+-        return array;
+-    }
+-}
+\ No newline at end of file
+Index: DBConnPractice/src/main/java/org/main/Main.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/DBConnPractice/src/main/java/org/main/Main.java b/DBConnPractice/src/main/java/org/main/Main.java
+new file mode 100644
+--- /dev/null	
++++ b/DBConnPractice/src/main/java/org/main/Main.java	
+@@ -0,0 +1,32 @@
++package org.main;
++
++import java.sql.*;
++
++public class Main {
++    public static void main(String[] args) {
++        Connection conn;
++        PreparedStatement stmt;
++        ResultSet rs;
++
++        try {
++            conn = DriverManager.getConnection("jdbc:mariadb://localhost:3306/charko_java", "root", "");
++
++            String sql= "select * from products where id=?";
++            stmt = conn.prepareStatement(sql);
++            stmt.setInt(1, 1);
++            rs = stmt.executeQuery();
++            while (rs.next()) {
++                System.out.println(rs.getString("title"));
++            }
++            // Inserción de un nuevo producto
++            String insertSql = "INSERT INTO products (title) VALUES (?)";
++            stmt = conn.prepareStatement(insertSql);
++            stmt.setString(1, "tatita");
++            int rowsAffected = stmt.executeUpdate();
++
++
++        } catch (SQLException e) {
++            throw new RuntimeException(e);
++        }
++    }
++}
+\ No newline at end of file
+Index: ../.idea/modules.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ProjectModuleManager\">\r\n    <modules>\r\n      <module fileurl=\"file://$PROJECT_DIR$/Charkowy/Charkowy.iml\" filepath=\"$PROJECT_DIR$/Charkowy/Charkowy.iml\" />\r\n      <module fileurl=\"file://$PROJECT_DIR$/Charkowy/Charkowy-tp03/Charkowy-tp03.iml\" filepath=\"$PROJECT_DIR$/Charkowy/Charkowy-tp03/Charkowy-tp03.iml\" />\r\n      <module fileurl=\"file://$PROJECT_DIR$/Kappou/Kappou.iml\" filepath=\"$PROJECT_DIR$/Kappou/Kappou.iml\" />\r\n      <module fileurl=\"file://$PROJECT_DIR$/Oviedo/Oviedo.iml\" filepath=\"$PROJECT_DIR$/Oviedo/Oviedo.iml\" />\r\n      <module fileurl=\"file://$PROJECT_DIR$/Pardo/Pardo.iml\" filepath=\"$PROJECT_DIR$/Pardo/Pardo.iml\" />\r\n      <module fileurl=\"file://$PROJECT_DIR$/Oviedo/Tp3SimpleResumen/Tp3SimpleResumen.iml\" filepath=\"$PROJECT_DIR$/Oviedo/Tp3SimpleResumen/Tp3SimpleResumen.iml\" />\r\n      <module fileurl=\"file://$PROJECT_DIR$/Pardo/binarios_tp/binarios_tp.iml\" filepath=\"$PROJECT_DIR$/Pardo/binarios_tp/binarios_tp.iml\" />\r\n      <module fileurl=\"file://$PROJECT_DIR$/Oviedo/busqueda_binaria/busqueda_binaria.iml\" filepath=\"$PROJECT_DIR$/Oviedo/busqueda_binaria/busqueda_binaria.iml\" />\r\n      <module fileurl=\"file://$PROJECT_DIR$/Kappou/tp03/tp03.iml\" filepath=\"$PROJECT_DIR$/Kappou/tp03/tp03.iml\" />\r\n      <module fileurl=\"file://$PROJECT_DIR$/Pardo/tp3_pardo/tp3_pardo.iml\" filepath=\"$PROJECT_DIR$/Pardo/tp3_pardo/tp3_pardo.iml\" />\r\n      <module fileurl=\"file://$PROJECT_DIR$/.idea/trabajos-practicos.iml\" filepath=\"$PROJECT_DIR$/.idea/trabajos-practicos.iml\" />\r\n    </modules>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../.idea/modules.xml b/../.idea/modules.xml
+--- a/../.idea/modules.xml	
++++ b/../.idea/modules.xml	
+@@ -4,15 +4,23 @@
+     <modules>
+       <module fileurl="file://$PROJECT_DIR$/Charkowy/Charkowy.iml" filepath="$PROJECT_DIR$/Charkowy/Charkowy.iml" />
+       <module fileurl="file://$PROJECT_DIR$/Charkowy/Charkowy-tp03/Charkowy-tp03.iml" filepath="$PROJECT_DIR$/Charkowy/Charkowy-tp03/Charkowy-tp03.iml" />
++      <module fileurl="file://$PROJECT_DIR$/Charkowy/Charkowy-tp05/Charkowy-tp05.iml" filepath="$PROJECT_DIR$/Charkowy/Charkowy-tp05/Charkowy-tp05.iml" />
++      <module fileurl="file://$PROJECT_DIR$/Gomez/Gomez.iml" filepath="$PROJECT_DIR$/Gomez/Gomez.iml" />
+       <module fileurl="file://$PROJECT_DIR$/Kappou/Kappou.iml" filepath="$PROJECT_DIR$/Kappou/Kappou.iml" />
+-      <module fileurl="file://$PROJECT_DIR$/Oviedo/Oviedo.iml" filepath="$PROJECT_DIR$/Oviedo/Oviedo.iml" />
+       <module fileurl="file://$PROJECT_DIR$/Pardo/Pardo.iml" filepath="$PROJECT_DIR$/Pardo/Pardo.iml" />
++      <module fileurl="file://$PROJECT_DIR$/Reyes/Reyes.iml" filepath="$PROJECT_DIR$/Reyes/Reyes.iml" />
++      <module fileurl="file://$PROJECT_DIR$/Valera/TP_3/TP_3.iml" filepath="$PROJECT_DIR$/Valera/TP_3/TP_3.iml" />
++      <module fileurl="file://$PROJECT_DIR$/Teruel/Teruel.iml" filepath="$PROJECT_DIR$/Teruel/Teruel.iml" />
++      <module fileurl="file://$PROJECT_DIR$/Polo/Tp3/Tp3.iml" filepath="$PROJECT_DIR$/Polo/Tp3/Tp3.iml" />
+       <module fileurl="file://$PROJECT_DIR$/Oviedo/Tp3SimpleResumen/Tp3SimpleResumen.iml" filepath="$PROJECT_DIR$/Oviedo/Tp3SimpleResumen/Tp3SimpleResumen.iml" />
++      <module fileurl="file://$PROJECT_DIR$/Polo/binario/binario.iml" filepath="$PROJECT_DIR$/Polo/binario/binario.iml" />
+       <module fileurl="file://$PROJECT_DIR$/Pardo/binarios_tp/binarios_tp.iml" filepath="$PROJECT_DIR$/Pardo/binarios_tp/binarios_tp.iml" />
++      <module fileurl="file://$PROJECT_DIR$/Valera/busquedaBinaria/busquedaBinaria.iml" filepath="$PROJECT_DIR$/Valera/busquedaBinaria/busquedaBinaria.iml" />
+       <module fileurl="file://$PROJECT_DIR$/Oviedo/busqueda_binaria/busqueda_binaria.iml" filepath="$PROJECT_DIR$/Oviedo/busqueda_binaria/busqueda_binaria.iml" />
+-      <module fileurl="file://$PROJECT_DIR$/Kappou/tp03/tp03.iml" filepath="$PROJECT_DIR$/Kappou/tp03/tp03.iml" />
++      <module fileurl="file://$PROJECT_DIR$/ochoa/ochoa.iml" filepath="$PROJECT_DIR$/ochoa/ochoa.iml" />
++      <module fileurl="file://$PROJECT_DIR$/Oviedo/tp3/tp3.iml" filepath="$PROJECT_DIR$/Oviedo/tp3/tp3.iml" />
+       <module fileurl="file://$PROJECT_DIR$/Pardo/tp3_pardo/tp3_pardo.iml" filepath="$PROJECT_DIR$/Pardo/tp3_pardo/tp3_pardo.iml" />
+-      <module fileurl="file://$PROJECT_DIR$/.idea/trabajos-practicos.iml" filepath="$PROJECT_DIR$/.idea/trabajos-practicos.iml" />
++      <module fileurl="file://$PROJECT_DIR$/trabajos-practicos.iml" filepath="$PROJECT_DIR$/trabajos-practicos.iml" />
+     </modules>
+   </component>
+ </project>
+\ No newline at end of file
+Index: ../Reyes/Reyes.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../Reyes/Reyes.iml b/../Reyes/Reyes.iml
+new file mode 100644
+--- /dev/null	
++++ b/../Reyes/Reyes.iml	
+@@ -0,0 +1,11 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module type="JAVA_MODULE" version="4">
++  <component name="NewModuleRootManager" inherit-compiler-output="true">
++    <exclude-output />
++    <content url="file://$MODULE_DIR$">
++      <sourceFolder url="file://$MODULE_DIR$/tp3/src" isTestSource="false" />
++    </content>
++    <orderEntry type="inheritedJdk" />
++    <orderEntry type="sourceFolder" forTests="false" />
++  </component>
++</module>
+\ No newline at end of file
+Index: ../Valera/busquedaBinaria/busquedaBinaria.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../Valera/busquedaBinaria/busquedaBinaria.iml b/../Valera/busquedaBinaria/busquedaBinaria.iml
+new file mode 100644
+--- /dev/null	
++++ b/../Valera/busquedaBinaria/busquedaBinaria.iml	
+@@ -0,0 +1,11 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module type="JAVA_MODULE" version="4">
++  <component name="NewModuleRootManager" inherit-compiler-output="true">
++    <exclude-output />
++    <content url="file://$MODULE_DIR$">
++      <sourceFolder url="file://$MODULE_DIR$/BusquedaBinaria/src" isTestSource="false" />
++    </content>
++    <orderEntry type="inheritedJdk" />
++    <orderEntry type="sourceFolder" forTests="false" />
++  </component>
++</module>
+\ No newline at end of file
+Index: ../Kappou/Kappou.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<module type=\"JAVA_MODULE\" version=\"4\">\r\n  <component name=\"NewModuleRootManager\" inherit-compiler-output=\"true\">\r\n    <exclude-output />\r\n    <content url=\"file://$MODULE_DIR$\">\r\n      <sourceFolder url=\"file://$MODULE_DIR$/src\" isTestSource=\"false\" />\r\n    </content>\r\n    <orderEntry type=\"inheritedJdk\" />\r\n    <orderEntry type=\"sourceFolder\" forTests=\"false\" />\r\n  </component>\r\n</module>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../Kappou/Kappou.iml b/../Kappou/Kappou.iml
+--- a/../Kappou/Kappou.iml	
++++ b/../Kappou/Kappou.iml	
+@@ -3,7 +3,7 @@
+   <component name="NewModuleRootManager" inherit-compiler-output="true">
+     <exclude-output />
+     <content url="file://$MODULE_DIR$">
+-      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
++      <sourceFolder url="file://$MODULE_DIR$/tp03/src" isTestSource="false" />
+     </content>
+     <orderEntry type="inheritedJdk" />
+     <orderEntry type="sourceFolder" forTests="false" />
+Index: ../Pardo/Pardo.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<module type=\"JAVA_MODULE\" version=\"4\">\r\n  <component name=\"NewModuleRootManager\" inherit-compiler-output=\"true\">\r\n    <exclude-output />\r\n    <content url=\"file://$MODULE_DIR$\">\r\n      <sourceFolder url=\"file://$MODULE_DIR$/src\" isTestSource=\"false\" />\r\n    </content>\r\n    <orderEntry type=\"jdk\" jdkName=\"openjdk-22\" jdkType=\"JavaSDK\" />\r\n    <orderEntry type=\"sourceFolder\" forTests=\"false\" />\r\n  </component>\r\n</module>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../Pardo/Pardo.iml b/../Pardo/Pardo.iml
+--- a/../Pardo/Pardo.iml	
++++ b/../Pardo/Pardo.iml	
+@@ -5,7 +5,7 @@
+     <content url="file://$MODULE_DIR$">
+       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+     </content>
+-    <orderEntry type="jdk" jdkName="openjdk-22" jdkType="JavaSDK" />
++    <orderEntry type="inheritedJdk" />
+     <orderEntry type="sourceFolder" forTests="false" />
+   </component>
+ </module>
+\ No newline at end of file
+Index: ../Gomez/Gomez.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../Gomez/Gomez.iml b/../Gomez/Gomez.iml
+new file mode 100644
+--- /dev/null	
++++ b/../Gomez/Gomez.iml	
+@@ -0,0 +1,11 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module type="JAVA_MODULE" version="4">
++  <component name="NewModuleRootManager" inherit-compiler-output="true">
++    <exclude-output />
++    <content url="file://$MODULE_DIR$">
++      <sourceFolder url="file://$MODULE_DIR$/Tp3/src" isTestSource="false" />
++    </content>
++    <orderEntry type="inheritedJdk" />
++    <orderEntry type="sourceFolder" forTests="false" />
++  </component>
++</module>
+\ No newline at end of file
+Index: ../Pardo/tp3_pardo/tp3_pardo.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<module type=\"JAVA_MODULE\" version=\"4\">\r\n  <component name=\"NewModuleRootManager\" inherit-compiler-output=\"true\">\r\n    <exclude-output />\r\n    <content url=\"file://$MODULE_DIR$\">\r\n      <sourceFolder url=\"file://$MODULE_DIR$/src\" isTestSource=\"false\" />\r\n    </content>\r\n    <orderEntry type=\"jdk\" jdkName=\"openjdk-22\" jdkType=\"JavaSDK\" />\r\n    <orderEntry type=\"sourceFolder\" forTests=\"false\" />\r\n  </component>\r\n</module>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../Pardo/tp3_pardo/tp3_pardo.iml b/../Pardo/tp3_pardo/tp3_pardo.iml
+--- a/../Pardo/tp3_pardo/tp3_pardo.iml	
++++ b/../Pardo/tp3_pardo/tp3_pardo.iml	
+@@ -5,7 +5,7 @@
+     <content url="file://$MODULE_DIR$">
+       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+     </content>
+-    <orderEntry type="jdk" jdkName="openjdk-22" jdkType="JavaSDK" />
++    <orderEntry type="inheritedJdk" />
+     <orderEntry type="sourceFolder" forTests="false" />
+   </component>
+ </module>
+\ No newline at end of file
+Index: ../ochoa/ochoa.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../ochoa/ochoa.iml b/../ochoa/ochoa.iml
+new file mode 100644
+--- /dev/null	
++++ b/../ochoa/ochoa.iml	
+@@ -0,0 +1,11 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module type="JAVA_MODULE" version="4">
++  <component name="NewModuleRootManager" inherit-compiler-output="true">
++    <exclude-output />
++    <content url="file://$MODULE_DIR$">
++      <sourceFolder url="file://$MODULE_DIR$/tp 3/src" isTestSource="false" />
++    </content>
++    <orderEntry type="inheritedJdk" />
++    <orderEntry type="sourceFolder" forTests="false" />
++  </component>
++</module>
+\ No newline at end of file
+Index: ../Teruel/Teruel.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../Teruel/Teruel.iml b/../Teruel/Teruel.iml
+new file mode 100644
+--- /dev/null	
++++ b/../Teruel/Teruel.iml	
+@@ -0,0 +1,11 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module type="JAVA_MODULE" version="4">
++  <component name="NewModuleRootManager" inherit-compiler-output="true">
++    <exclude-output />
++    <content url="file://$MODULE_DIR$">
++      <sourceFolder url="file://$MODULE_DIR$/Tp3/src" isTestSource="false" />
++    </content>
++    <orderEntry type="inheritedJdk" />
++    <orderEntry type="sourceFolder" forTests="false" />
++  </component>
++</module>
+\ No newline at end of file
+Index: ../Oviedo/busqueda_binaria/busqueda_binaria.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<module type=\"JAVA_MODULE\" version=\"4\">\r\n  <component name=\"NewModuleRootManager\" inherit-compiler-output=\"true\">\r\n    <exclude-output />\r\n    <content url=\"file://$MODULE_DIR$\">\r\n      <sourceFolder url=\"file://$MODULE_DIR$/src\" isTestSource=\"false\" />\r\n    </content>\r\n    <orderEntry type=\"jdk\" jdkName=\"openjdk-22\" jdkType=\"JavaSDK\" />\r\n    <orderEntry type=\"sourceFolder\" forTests=\"false\" />\r\n  </component>\r\n</module>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../Oviedo/busqueda_binaria/busqueda_binaria.iml b/../Oviedo/busqueda_binaria/busqueda_binaria.iml
+--- a/../Oviedo/busqueda_binaria/busqueda_binaria.iml	
++++ b/../Oviedo/busqueda_binaria/busqueda_binaria.iml	
+@@ -5,7 +5,7 @@
+     <content url="file://$MODULE_DIR$">
+       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+     </content>
+-    <orderEntry type="jdk" jdkName="openjdk-22" jdkType="JavaSDK" />
++    <orderEntry type="inheritedJdk" />
+     <orderEntry type="sourceFolder" forTests="false" />
+   </component>
+ </module>
+\ No newline at end of file
+Index: ../Oviedo/Tp3SimpleResumen/Tp3SimpleResumen.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<module type=\"JAVA_MODULE\" version=\"4\">\r\n  <component name=\"NewModuleRootManager\" inherit-compiler-output=\"true\">\r\n    <exclude-output />\r\n    <content url=\"file://$MODULE_DIR$\">\r\n      <sourceFolder url=\"file://$MODULE_DIR$/src\" isTestSource=\"false\" />\r\n    </content>\r\n    <orderEntry type=\"jdk\" jdkName=\"openjdk-22\" jdkType=\"JavaSDK\" />\r\n    <orderEntry type=\"sourceFolder\" forTests=\"false\" />\r\n  </component>\r\n</module>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../Oviedo/Tp3SimpleResumen/Tp3SimpleResumen.iml b/../Oviedo/Tp3SimpleResumen/Tp3SimpleResumen.iml
+--- a/../Oviedo/Tp3SimpleResumen/Tp3SimpleResumen.iml	
++++ b/../Oviedo/Tp3SimpleResumen/Tp3SimpleResumen.iml	
+@@ -5,7 +5,7 @@
+     <content url="file://$MODULE_DIR$">
+       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+     </content>
+-    <orderEntry type="jdk" jdkName="openjdk-22" jdkType="JavaSDK" />
++    <orderEntry type="inheritedJdk" />
+     <orderEntry type="sourceFolder" forTests="false" />
+   </component>
+ </module>
+\ No newline at end of file
+diff --git a/../.idea/jarRepositories.xml b/.idea/jarRepositories.xml
+rename from ../.idea/jarRepositories.xml
+rename to .idea/jarRepositories.xml
+diff --git a/../.idea/trabajos-practicos.iml b/../trabajos-practicos.iml
+rename from ../.idea/trabajos-practicos.iml
+rename to ../trabajos-practicos.iml
