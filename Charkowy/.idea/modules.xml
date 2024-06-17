@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/DBConnPractice.iml" filepath="$PROJECT_DIR$/DBConnPractice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Charkowy.iml" filepath="$PROJECT_DIR$/.idea/Charkowy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Charkowy-tp03/Charkowy-tp03.iml" filepath="$PROJECT_DIR$/Charkowy-tp03/Charkowy-tp03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Charkowy-tp05/Charkowy-tp05.iml" filepath="$PROJECT_DIR$/Charkowy-tp05/Charkowy-tp05.iml" />
     </modules>
   </component>
 </project>
