@@ -11,7 +11,7 @@ public class Main {
 
         while (opcion != 1 && opcion != 2) {
             try {
-                System.out.println("Por favor, ingrese la opción que desea ver:");
+                System.out.println("Pora favor, ingrese la opción que desea ver:");
                 System.out.println("Opción 1: Mostrar un 'Hola Mundo'");
                 System.out.println("Opción 2: Operaciones con personas");
 
