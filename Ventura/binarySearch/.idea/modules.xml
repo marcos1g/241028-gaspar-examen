@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/trabajos-practicos.iml" filepath="$PROJECT_DIR$/.idea/trabajos-practicos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/binarySearch.iml" filepath="$PROJECT_DIR$/binarySearch.iml" />
     </modules>
   </component>
 </project>
