@@ -8,16 +8,23 @@ import java.util.Random;
 public class BuscadorBinario {
     private int[] listNumbers;
     private Random rnd = new Random();
-    
+    private int contador;
     public BuscadorBinario(){}
     
     public int[] getListNumbers(){
         return listNumbers;
     }
+    public int getContador(){
+        return this.contador;
+    }
+    public void setContador(int contador){
+        this.contador = contador;
+    }
     public int BinarySearch(int target){
         int left = 0;
         int right = listNumbers.length - 1;
         while (left <= right) {
+            contador= contador + 1;
             int mid = left + (right - left) / 2;
 
             if (listNumbers[mid] == target) {
