@@ -92,7 +92,7 @@ public class binary_search {
     public int reqNum(){
         return reqNum;
     }
-    public int showResults(){
+    public int iterations(){
         return iterations;
     }
     public int[] showList(){
