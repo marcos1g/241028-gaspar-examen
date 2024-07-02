@@ -19,6 +19,12 @@ public class Cart {
         this.state = state;
         this.nombre = nombre;
     }
+    public Cart(String state, String nombre) {
+
+        this.state = state;
+        this.nombre = nombre;
+        products = new HashMap<Integer,Product>();
+    }
 
     public Cart(){}
 
@@ -26,6 +32,11 @@ public class Cart {
     public int getId() {
         return this.id;
     }
+
+    public String getNombre() {
+        return nombre;
+    }
+
     public String getState() {
         return this.state;
     }
