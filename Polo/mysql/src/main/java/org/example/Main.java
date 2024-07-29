@@ -22,6 +22,7 @@ public class Main {
 
                 System.out.println(rs.getString("nombre"));
             }
+            System.out.println("marcos puto");
 
         } catch (SQLException e) {
             throw new RuntimeException(e);
