@@ -4,11 +4,6 @@
     <mappings />
     <preferences />
   </component>
-  <component name="DBNavigator.Project.DataEditorManager">
-    <record-view-column-sorting-type value="BY_INDEX" />
-    <value-preview-text-wrapping value="false" />
-    <value-preview-pinned value="false" />
-  </component>
   <component name="DBNavigator.Project.DatabaseBrowserManager">
     <autoscroll-to-editor value="false" />
     <autoscroll-from-editor value="true" />
@@ -16,8 +11,8 @@
     <loaded-nodes />
   </component>
   <component name="DBNavigator.Project.DatabaseConsoleManager">
-    <connection id="4ba13bcd-12a7-4342-92f9-e0108410d49d">
-      <console name="Connection" type="STANDARD" schema="" session="Main" />
+    <connection id="3b35aa25-5f41-4df7-96ce-71d63ae00b90">
+      <console name="mercado" type="STANDARD" schema="" session="Main" />
     </connection>
   </component>
   <component name="DBNavigator.Project.DatabaseEditorStateManager">
@@ -26,8 +21,8 @@
   <component name="DBNavigator.Project.DatabaseFileManager">
     <open-files />
   </component>
-  <component name="DBNavigator.Project.DatabaseSessionManager">
-    <connection id="4ba13bcd-12a7-4342-92f9-e0108410d49d" />
+  <component name="DBNavigator.Project.DatasetFilterManager">
+    <filter-actions connection-id="3b35aa25-5f41-4df7-96ce-71d63ae00b90" dataset="tp11.compradores" active-filter-id="" />
   </component>
   <component name="DBNavigator.Project.ObjectQuickFilterManager">
     <last-used-operator value="EQUAL" />
@@ -35,9 +30,9 @@
   </component>
   <component name="DBNavigator.Project.Settings">
     <connections>
-      <connection id="4ba13bcd-12a7-4342-92f9-e0108410d49d" active="true" signed="true">
+      <connection id="3b35aa25-5f41-4df7-96ce-71d63ae00b90" active="true" signed="true">
         <database>
-          <name value="Connection" />
+          <name value="tp11" />
           <description value="" />
           <database-type value="MYSQL" />
           <config-type value="BASIC" />
@@ -48,7 +43,7 @@
           <url-type value="DATABASE" />
           <host value="localhost" />
           <port value="3306" />
-          <database value="test" />
+          <database value="tp11" />
           <tns-folder value="" />
           <tns-profile value="" />
           <type value="USER" />
@@ -524,9 +519,5 @@
         </visibility-settings>
       </environment>
     </general-settings>
-  </component>
-  <component name="DBNavigator.Project.StatementExecutionManager">
-    <execution-variables />
-    <execution-variable-types />
   </component>
 </project>
