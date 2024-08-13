@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Opciones Dinámicas con Bootstrap</title>
+    <!-- Incluyendo Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .content-box {
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container mt-5">
+    <div class="row">
+        <!-- Caja para seleccionar opciones -->
+        <div class="col-md-4">
+            <div class="content-box">
+                <h4>Selecciona una opción</h4>
+                <select id="options" class="form-select" onchange="showContent()">
+                    <option value="" disabled selected>Selecciona una opción</option>
+                    <option value="option1">Json Productos</option>
+                    <option value="option2">Opción 2</option>
+                </select>
+            </div>
+        </div>
+        
+        <!-- Caja para mostrar el contenido -->
+        <div class="col-md-8">
+            <div id="contentBox" class="content-box mt-3">
+                <h4>Contenido:</h4>
+                <p id="content">Selecciona una opción para ver el contenido aquí.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Incluyendo Bootstrap JavaScript y dependencias -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    function showContent() {
+        const contentBox = document.getElementById('content');
+        const selectedOption = document.getElementById('options').value;
+
+        if (selectedOption === 'option1') {
+        	                $.ajax({
+        	                    url: 'http://localhost:8080/mp-proyecto?p=1', // URL a la que se hará la solicitud
+        	                    type: 'GET', // Método de la solicitud
+        	                    dataType: 'json', // Tipo de datos esperados en la respuesta
+        	                    success: function(data) {
+        	                        // Acción a realizar si la solicitud es exitosa
+        	                        console.log(data);
+        	                        $('#result').html(JSON.stringify(data, null, 2));
+        	                    },
+        	                    error: function(xhr, status, error) {
+        	                        // Acción a realizar si ocurre un error
+        	                        console.error('Error:', status, error);
+        	                        $('#result').html('Error al cargar los datos.');
+        	                    }
+        	                });
+            contentBox.innerHTML = '<h4>Contenido para Opción 1</h4><p>Este es el contenido que se muestra cuando seleccionas la Opción 1.</p>';
+        } else if (selectedOption === 'option2') {
+            contentBox.innerHTML = '<h4>Contenido para Opción 2</h4><p>Este es el contenido que se muestra cuando seleccionas la Opción 2.</p>';
+        } else {
+            contentBox.innerHTML = 'Selecciona una opción para ver el contenido aquí.';
+        }
+    }
+</script>
+
+</body>
+</html>

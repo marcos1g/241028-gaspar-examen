@@ -1,0 +1,8 @@
+INDEX VERSION 1.4+C:\valera\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+2613299309.index
+2170217977.index
+3319428072.index
+1440332097.index
+2062692063.index
+1421198909.index
+1457731425.index
